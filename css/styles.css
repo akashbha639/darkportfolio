@@ -16,6 +16,9 @@
     margin-left: 20px;
     
 }
+.nav-item5:hover {
+    color: #000000;
+}
 
 #body {
     background-color: #0a192f;
