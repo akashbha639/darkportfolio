@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    user-select: none;
+    background-color: rgb(221, 216, 216);
+    width: 100%;
+    height: 100;
+    display: flex;
+}
+
+.sidebar {
+    background-color: white;
+    height: 100%;
+    width: 700px;
+    position: relative;
+    overflow-x: hidden;
+}
+.resizer {
+    background-color: rgb(226, 225, 225);
+    height: 100%;
+    width: 3px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: col-resize;
+}
+.header {
+    background-color: antiquewhite;
+    padding: 20px 10px;    
+}
+
+.header h3 {
+    color: #2e2e9b;
+}
+.header, h3, teaxtarea  {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+textarea {
+    list-style: none;
+    outline: none;
+    width: 100%;
+    padding: 10px 0;
+    resize: none;
+}
+textarea  {
+    border: 0;
+   
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+
+.sidebar1 {
+    background-color: white;
+    height: 100%;
+    width: 1400px;
+    position: relative;
+    
+    overflow-x: hidden;
+}
+
+.header1 {
+    background-color: antiquewhite;
+    padding: 20px 10px;    
+}
+
+.header1 h3 {
+    color: #2e2e9b;
+}
+.header1, h3, teaxtarea  {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+textarea {
+    list-style: none;
+    outline: none;
+    width: 100%;
+    padding: 10px 0;
+    resize: none;
+}
+textarea  {
+    border: 0;
+   
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 10px;
+}

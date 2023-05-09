@@ -1,0 +1,89 @@
+#navbarId {
+    color: #64ffda;
+    background-color: #0a192f;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 4%;
+    font-family: 'Share Tech Mono', 'VT323';
+    
+    
+}
+.nav-item1, .nav-item2, .nav-item3, .nav-item4{
+    margin-left: 20px;
+    padding: 0;
+}
+.nav-item5{
+    margin-left: 20px;
+    
+}
+
+#body {
+    background-color: #0a192f;
+    
+}
+#non-body{
+    padding-top: 6%;
+    padding-left: 13%;
+    padding-right: 12%;
+    padding-bottom: 5%;
+}
+.myname{
+    color: #64ffda;
+    font-family: 'Share Tech Mono', 'VT323';
+    margin-left: 10px;
+    
+    
+}
+.name {
+    color: #d1e1f3;
+    font-family: 'Open Sans', 'Ubuntu', 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: 4rem;
+    
+    
+    
+}
+.profession{
+    color: #a4bde1;
+    font-family: 'Open Sans', 'Ubuntu', 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: 4.5rem;
+}
+p {
+    color: #8892b0;
+    font-size: 18px;    
+    font-family: 'Open Sans';
+    margin-top: 20px!important;
+    font-weight: 500;   
+}
+ul.social {
+    
+    list-style: none;
+    position: fixed;
+    top: 73%;
+    left: 2.5%;
+    transform: translateY(-45%);
+
+}
+.fi-brand-github{
+    margin-left: 50px;
+    margin-right: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: #64ffda;
+    height: 60px; 
+    line-height: 60px;
+    display: flex;
+}
+.divButton {
+    padding-left: 13%;
+    font-family: 'Share Tech Mono', 'sans-serif';
+    
+}
+div a button{
+    width: 20%;
+    height: 50px;
+   
+    
+}
